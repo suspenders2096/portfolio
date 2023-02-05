@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='./css/style.css'>
+    <link rel="stylesheet" href='./css/media.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <h1 class="header-title">Голубчик Екатерина</h1>
+        <p class="header-subtitle">веб-разработчик, создание сайтов</p>
+
+        <div class="header-arrow">
+            <a href="#portfolio" id="link">
+                <img src="./images/header/chevron-down.svg" alt="arrow">
+            </a>   
+        </div>
+    </header>
+
+    <main>
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2 class="section-header">Портфолио</h2>
+                <div class="portfolio-cards-wrapper">
+                    <div class="card">
+                        <a href="portfolio/alivio/aliviocard.html" class="card-link" target="_blanck"> 
+                            <img class="card-img" src="./images/portfolio/alivio.png" alt="Одностраничный сайт">
+                            <h3 class="card-title">Одностраничный сайт</h3>
+                            <p>Верстка одностраничного сайта.</p>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="portfolio/flashcards/flashcardscard.html" class="card-link" target="_blanck"> 
+                            <img class="card-img" src="./images/portfolio/flashcards.png" alt="JavaScript проект">
+                            <h3 class="card-title">JavaScript проект</h3>
+                            <p>Верстка JavaScript проекта.</p>
+                        </a>
+                        <!-- <a href="flashcards.html" class="card-link" target="_blanck"> 
+                            <img class="card-img" src="../Портфолио сайт/images/portfolio/unit.jpg.jpg" alt="Адаптивный лендинг">
+                            <h3 class="card-title">Адаптивный лендинг</h3>
+                            <p>Верстка многостраничного сайта.</p>
+                        </a> -->
+                    </div>
+                    <div class="card">
+                        <a href="portfolio/mountains/mntncard.html" class="card-link" target="_blanck"> 
+                            <img class="card-img" src="./images/portfolio/MNTN.png" alt="Одностраничный сайт">
+                            <h3 class="card-title">Одностраничный сайт</h3>
+                            <p>Верстка одностраничного сайта.</p>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="portfolio/task/tasktrakercard.html" class="card-link" target="_blanck"> 
+                            <img class="card-img" src="./images/portfolio/task.png" alt="Одностраничный сайт">
+                            <h3 class="card-title">Одностраничный сайт</h3>
+                            <p>Верстка главной страницы одностраничного сайта.</p>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="portfolio/wigs/wigscard.html" class="card-link" target="_blanck"> 
+                            <img class="card-img" src="./images/portfolio/Wigs.png" alt="Одностраничный сайт">
+                            <h3 class="card-title">Одностраничный сайт</h3>
+                            <p>Верстка главной страницы интрнет магазина «Wigs»</p>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="portfolio/lemibrend/lemibrendcard.html" class="card-link" target="_blanck"> 
+                            <img class="card-img" src="./images/portfolio/lemibrend.png" alt="Одностраничный сайт">
+                            <h3 class="card-title">Одностраничный сайт</h3>
+                            <p>Верстка сайта для связи Lemibrend</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-copyright footer-col">
+                    <div class="footer-copyright-name">
+                        © Голубчик Екатерина
+                    </div>
+                    <p>HTML верстка и разработка сайтов</p>
+                </div>
+
+                <div class="footer-icons footer-col">
+                    <p>Мои профили в социальных сетях:</p>
+                    <div class="footer-icons-row">
+                        <!-- <a href="#">
+                          <img src="../Портфолио сайт/images/footer/icons/instagram.svg" alt="instagram">
+                        </a> -->
+                        <!-- <a href="#">
+                          <img src="../Портфолио сайт/images/footer/icons/facebook.svg" alt="facebook">
+                        </a> -->
+                        <a href="https://vk.com/alkogolubchik" target="_blank">
+                          <img src="./images/footer/icons/vk.svg" alt="vkontakte">
+                        </a>
+                        <!-- <a href="#">
+                          <img src="../Портфолио сайт/images/footer/icons/linkedin.svg" alt="linkedin">
+                        </a> -->
+                        <a href="https://github.com/suspenders2096" target="_blank">
+                          <img src="./images/footer/icons/github.svg" alt="github">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-contacts footer-col">
+                    <a class="footer-button" href="https://vk.me/alkogolubchik" target="_blanck">Связаться Вконтакте</a>
+                    <p>Напишите мне, чтобы заказать или узнать стоимость верстки вашего проекта.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- Библиотеки и плагины -->
+
+    <script src="./libs/jQuery/jquery-3.6.0.min.js"></script>
+    <script src="./libs/vide/jquery.vide.min.js"></script>
+
+<!-- Вызовы библиотек -->
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
